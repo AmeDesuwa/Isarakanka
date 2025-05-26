@@ -1,4 +1,4 @@
-package com.example.boardinghouse;
+package com.example.isarakanka; // Fixed package name
 
 import android.os.Bundle;
 import android.view.View;

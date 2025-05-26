@@ -1,4 +1,4 @@
-package com.example.boardinghouse;
+package com.example.isarakanka;
 
 import android.content.Intent;
 import android.content.SharedPreferences;

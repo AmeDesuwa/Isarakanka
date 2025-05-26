@@ -78,8 +78,8 @@ public class PersonalInfoActivity extends AppCompatActivity {
 
         Toast.makeText(this, "Profile saved successfully!", Toast.LENGTH_SHORT).show();
 
-        // Navigate to main activity
-        Intent intent = new Intent(PersonalInfoActivity.this, com.example.boardinghouse.MainActivity.class);
+        // Navigate to main activity - Fixed the reference
+        Intent intent = new Intent(PersonalInfoActivity.this, MainActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intent);
         finish();

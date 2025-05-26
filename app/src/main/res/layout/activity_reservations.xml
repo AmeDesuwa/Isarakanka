@@ -183,7 +183,7 @@
                 android:text="Welcome to Sunny Stay Boarding House, your cozy home away from home. Conveniently located in a quiet neighbourhood just minutes away from downtown, our two-story house offers a comfortable and affordable living experience for students, workers, and travelers alike. Each room is fully furnished with a bed, desk, wardrobe, and fan. Shared amenities include a spacious living area, a clean kitchen with complete cooking facilities, free Wi-Fi, and"
                 android:textSize="14sp"
                 android:textColor="#666666"
-                android:lineSpacing="1.2"
+                android:lineSpacingExtra="4dp"
                 android:layout_marginBottom="20dp" />
 
             <!-- Cancellation Status -->
