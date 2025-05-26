@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <!-- Welcome Activity - Launch Screen -->
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Onboarding Activity -->
+        <activity
+            android:name=".OnboardingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Sign In Activity -->
+        <activity
+            android:name=".SignInActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Sign Up Activity -->
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Personal Info Activity -->
+        <activity
+            android:name=".PersonalInfoActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Reservations Activity -->
+        <activity
+            android:name=".ReservationsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Cancel Reason Activity -->
+        <activity
+            android:name=".CancelReasonActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Boarding Houses Activity -->
+        <activity
+            android:name=".BoardingHousesActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Property Details Activity -->
+        <activity
+            android:name=".PropertyDetailsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Reservation Details Activity -->
+        <activity
+            android:name=".ReservationDetailsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

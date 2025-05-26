@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IsarakanKa</string>
+    <string name="welcome_text">ISARAKAN KA!</string>
+    <string name="discover_text">Discover Boarding House\'s near you</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="email_hint">Email*</string>
+    <string name="password_hint">Password*</string>
+    <string name="repeat_password_hint">Repeat password*</string>
+    <string name="terms_text">By signing up on this app, you\'re also agreeing to our Terms of Service and Privacy Policy</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="dont_have_account">Don\'t have an account yet?</string>
+    <string name="view_reservations">View Reservations</string>
+    <string name="sign_out">Sign out</string>
+    <string name="reservations">Reservations</string>
+    <string name="details">Details</string>
+    <string name="specifications">Specifications</string>
+    <string name="cancel_reservation">Cancel Reservation</string>
+    <string name="reason_for_cancellation">Reason for Cancellation</string>
+    <string name="reason_label">Reason:</string>
+    <string name="send">Send</string>
+    <string name="start">Start</string>
+    <string name="lets_go">Let\'s go ></string>
+</resources>
